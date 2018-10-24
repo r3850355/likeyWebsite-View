@@ -20,4 +20,6 @@ export default {
   .layout
     display inline-block
     font-size 14px
+    .q-icon
+      font-size 14px
 </style>

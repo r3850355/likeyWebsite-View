@@ -6,8 +6,8 @@
     autoplay
     height="400px"
   >
-    <q-carousel-slide img-src="statics/bg1.JPG" />
-    <q-carousel-slide img-src="statics/bg2.JPG" />
+    <q-carousel-slide img-src="https://instagram.ftpe8-4.fna.fbcdn.net/vp/c1cb2d73d35d5a484a7b72044c47fabc/5C861FF0/t51.2885-15/e35/13551813_1011120478937089_513573524_n.jpg" />
+    <q-carousel-slide img-src="https://instagram.ftpe8-4.fna.fbcdn.net/vp/d985bdaeb2a74c3ab0086896b44d50b6/5C80E604/t51.2885-15/e35/28766859_351111828711414_8547892252356116480_n.jpg" />
     <q-carousel-control
       position="center"
       slot="control-nav" 

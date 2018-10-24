@@ -21,7 +21,7 @@ module.exports = function (ctx) {
       // vueRouterMode: 'history',
       // vueCompiler: true,
       // gzip: true,
-      analyze: true,
+      //analyze: true,
       // extractCSS: false,
       extendWebpack (cfg) {
       }
@@ -58,7 +58,14 @@ module.exports = function (ctx) {
         //tools
         'QInput',
         'QAutocomplete',
-        'QPopover'
+        'QPopover',
+        //cards
+        'QCard',
+        'QCardTitle',
+        'QCardMain',
+        'QCardMedia',
+        'QCardSeparator',
+        'QCardActions',
       ],
       directives: [
         'Ripple',
