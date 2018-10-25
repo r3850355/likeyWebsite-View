@@ -1,5 +1,5 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
+  <q-layout view="lHh Lpr lff">
     <q-layout-header>
       <q-toolbar
         color="primary"
@@ -63,6 +63,7 @@
     <q-page-container>
       <router-view />
     </q-page-container>
+
   </q-layout>
 </template>
 
@@ -77,5 +78,3 @@ export default {
 }
 </script>
 
-<style>
-</style>

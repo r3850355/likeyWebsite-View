@@ -59,6 +59,10 @@ module.exports = function (ctx) {
         'QInput',
         'QAutocomplete',
         'QPopover',
+        'QParallax',
+        'QBreadcrumbs',
+        'QBreadcrumbsEl',
+        'QRating', 
         //cards
         'QCard',
         'QCardTitle',
@@ -66,6 +70,7 @@ module.exports = function (ctx) {
         'QCardMedia',
         'QCardSeparator',
         'QCardActions',
+
       ],
       directives: [
         'Ripple',

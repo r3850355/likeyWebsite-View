@@ -13,6 +13,34 @@
         />
       </div>
     </template>
+
+    <div class="col-12 q-pa-sm q-mt-lg"><b class="title">本月最精選</b></div>
+    <template v-for="(data,idx) in monthBestList">
+      <div class="col-lg-3 col-sm-6 col-xs-12 q-pa-sm" :key="idx">
+        <l-card 
+          :title="data.title"
+          :rate ="data.rate"
+          :comment="data.comment"
+          :view="data.view"
+          :locate="data.locate"
+          :image="data.image"
+        />
+      </div>
+    </template>
+
+    <div class="col-12 q-pa-sm q-mt-lg"><b class="title">本月最精選</b></div>
+    <template v-for="(data,idx) in monthBestList">
+      <div class="col-lg-3 col-sm-6 col-xs-12 q-pa-sm" :key="idx">
+        <l-card 
+          :title="data.title"
+          :rate ="data.rate"
+          :comment="data.comment"
+          :view="data.view"
+          :locate="data.locate"
+          :image="data.image"
+        />
+      </div>
+    </template>
   </div>
 </template>
 
